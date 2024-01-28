@@ -1,0 +1,247 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+.container{
+        margin: 0 auto;
+        max-width: 1140px;
+}
+.navbar{
+          background: #ffff;
+  .nav-item{
+          padding-left: 10px;
+  }    
+  .nav-link{
+          text-transform: uppercase;
+  }    
+}
+
+.carousel-item{
+          height: 450px;
+}
+.carousel-img-1{
+ background: url('img/1.jpg');
+ background-size: cover;
+}
+.carousel-img-2{
+          background: url('img/3.png');
+          background-size: cover;
+ }
+.carousel-img-3{
+          background: url('img/2.png');
+          background-size: cover;
+ }
+/* home icon */
+#home-icon{
+i{
+          color:black;
+          font-size: 30px;
+}
+}
+
+
+/*getstarted*/
+#getstarted{
+        background-image: url('img/5.png');
+        background-size: cover;
+        background-repeat: no-repeat ;
+        background-attachment: fixed;
+        position: relative;
+        min-height:250px;
+ 
+   .dark-overlay{
+        background: rgb(0,0,0,7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: .5;
+
+        
+   } 
+
+   }       
+
+/*home-video*/
+#home-video{
+        background-image:url('img/7.png');
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        min-height: 250px;
+        position:relative;
+
+ .dark-overlay{
+        position: absolute;
+        background: rgb(0,0,0,7);
+        top:0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        opacity: .9;
+ }
+ i{
+       
+        font-size:50px;
+        color: red;
+ }
+ h2{
+        color: #ffff;
+ }
+}
+
+/* Gallary */
+#gallary{
+  img{
+      min-height:300px
+  }
+}
+#copyright{
+        background-color: black;
+}
+
+/*about us*/
+.navbar{
+        background: #000;
+.nav-item{
+        padding-left: 10px;
+}    
+.nav-link{
+        text-transform: uppercase;
+}    
+}
+
+#about-pase{
+        background-image:url('img/1.jpg');
+        background-repeat:no-repeat;
+        background-size: cover;
+        height: 250px;
+        background-attachment: fixed;
+
+       h2 {
+          color: #ffff;
+        }
+       
+}
+ 
+#What-do{
+        img{
+                height:250px;
+                 width:250px;
+        }
+}
+#gallary{
+        h2{
+           color:#ffff;
+        }
+        i{
+             font-size: 30px;
+        }
+        
+}
+
+/* service-header */
+#service-header{
+        background-image:url('img/9.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        min-height: 200px;
+        background-attachment: fixed;
+
+}
+
+/*blog-pase*/
+#blog-pase{
+        background-image: url('img/5.png');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        min-height: 200px;       
+}
+#blog-section{
+        img{
+                max-height: 150px;
+                 min-width: 300px;
+        }
+}
+
+/*contact pase */
+#contact-pase{
+background-image: url('img/4.png');
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment: fixed;
+min-height: 200px;       
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:767px){
+     .nav-item{
+          padding-left: 0px;
+     }     
+
+
+
+}
+@media(max-width:480px){
+  .carousel-item{
+        h2{
+                font-size: 25px;
+            }
+            p{
+                    font-size: 18px;
+                    }
+             }
+  }
+  #home-icon{
+        h2{
+                font-size: 25px;
+            }
+            p{
+                    font-size: 18px;
+                    }
+  }
+
+    #getstarted{
+     min-height: 300px;
+    
+     h2{
+        font-size: 25px;
+    }
+    p{
+            font-size: 18px;
+            }
+    } 
+    
+#lorem-sit{
+        h2{
+            font-size: 25px;
+        }
+        p{
+                font-size: 18px;
+                }
+         }
+}
+@media(max-width:300px){
+        #getstarted{ 
+        p{
+       font-size: 15px;
+       }
+       h1{
+        font-size: 15px;
+       }
+        
+        }    
+    }
